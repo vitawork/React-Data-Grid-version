@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/common/editors/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,IAAI,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAC7D,OAAO,EAAE,OAAO,IAAI,gBAAgB,EAAE,MAAM,oBAAoB,CAAC","sourcesContent":["export { default as CheckboxEditor } from './CheckboxEditor';\nexport { default as SimpleTextEditor } from './SimpleTextEditor';\n"]}

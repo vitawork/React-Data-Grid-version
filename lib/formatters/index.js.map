@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/formatters/index.ts"],"names":[],"mappings":"AAAA,cAAc,uBAAuB,CAAC;AACtC,cAAc,aAAa,CAAC","sourcesContent":["export * from './SimpleCellFormatter';\nexport * from './SelectAll';\n"]}
