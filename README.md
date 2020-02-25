@@ -1,22 +1,16 @@
-# react-data-grid [![npm-badge]][npm-url] [![bundlesize-badge]][bundlesize-url] [![coverage-badge]][azure-url]
+# react-data-grid-m1n-version
 
-[npm-badge]: https://img.shields.io/npm/v/react-data-grid/next.svg
-[npm-url]: https://www.npmjs.com/package/react-data-grid
-[bundlesize-badge]: https://img.shields.io/bundlephobia/minzip/react-data-grid/next.svg
-[bundlesize-url]: https://bundlephobia.com/result?p=react-data-grid@next
-[coverage-badge]: https://img.shields.io/azure-devops/coverage/nstepi181/react-data-grid/1/next.svg?style=flat-square
-[azure-url]: https://dev.azure.com/nstepi181/react-data-grid/_build/latest?definitionId=1&branchName=next
 
 ## Install
 
 ```sh
-npm install react-data-grid
+npm install react-data-grid-m1n-version
 ```
 
 ## Usage
 
 ```jsx
-import ReactDataGrid from 'react-data-grid';
+import ReactDataGrid from 'react-data-grid-m1n-version';
 
 const columns = [{ key: 'id', name: 'ID' }, { key: 'title', name: 'Title' }];
 const rows = [{ id: 1, title: 'Title 1' }, ...];

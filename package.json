@@ -1,37 +1,11 @@
-{
-  "_args": [
-    [
-      "react-data-grid@7.0.0-alpha.20",
-      "C:\\Users\\esteb\\OneDrive\\Desktop\\m1neral"
-    ]
-  ],
-  "_from": "react-data-grid@7.0.0-alpha.20",
-  "_id": "react-data-grid@7.0.0-alpha.20",
-  "_inBundle": false,
-  "_integrity": "sha512-fQ9qMnKYxnHBj6oMnmqES/P9OPidiardhwPBki1cnXAbq2fiIXN4MlUeOX4Jx4mE06vZdryo7WC3S/Dzd0ad/g==",
-  "_location": "/react-data-grid",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "react-data-grid@7.0.0-alpha.20",
-    "name": "react-data-grid",
-    "escapedName": "react-data-grid",
-    "rawSpec": "7.0.0-alpha.20",
-    "saveSpec": null,
-    "fetchSpec": "7.0.0-alpha.20"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-data-grid/-/react-data-grid-7.0.0-alpha.20.tgz",
-  "_spec": "7.0.0-alpha.20",
-  "_where": "C:\\Users\\esteb\\OneDrive\\Desktop\\m1neral",
-  "author": {
-    "name": "Adazzle"
-  },
-  "bugs": {
-    "url": "https://github.com/adazzle/react-data-grid/issues"
+{  
+  "name": "react-data-grid-m1n-version",
+  "version": "1.0.1",
+  "description": "A version of react-data-grid where the cells does not have autofocus, prevent it from been stealing the focus from anothers components on the page, and cells can be editable only after double click.",
+  "main": "commonjs/index.js",
+  "module": "lib/index.js",
+  "directories": {
+    "lib": "lib"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -39,43 +13,21 @@
     "react-is": "^16.8.4",
     "shallowequal": "^1.1.0",
     "tslib": "^1.10.0"
-  },
-  "description": "Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
-  "files": [
-    "dist",
-    "lib",
-    "commonjs"
-  ],
-  "gitHead": "d3cc6627da4dce7886b8aaece9fd7a2551021b2f",
-  "homepage": "https://github.com/adazzle/react-data-grid",
-  "keywords": [
-    "react",
-    "react-data-grid",
-    "data-grid",
-    "core"
-  ],
-  "license": "MIT",
-  "main": "commonjs/index.js",
-  "module": "lib/index.js",
-  "name": "react-data-grid",
-  "peerDependencies": {
-    "@types/classnames": "^2.2",
-    "@types/react": "^16.8",
-    "@types/react-dom": "^16.8",
-    "@types/react-is": "^16.7",
-    "@types/shallowequal": "^1.1",
-    "react": "^16.8",
-    "react-dom": "^16.8"
+ },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adazzle/react-data-grid.git"
+    "url": "git+https://github.com/vitawork/React-Data-Grid-version.git"
   },
-  "scripts": {
-    "build": "tsc",
-    "build-commonjs": "tsc --module commonjs --outdir commonjs --esModuleInterop"
+  "keywords": [
+    "react-data-grid"
+  ],
+  "author": "anonymus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitawork/React-Data-Grid-version/issues"
   },
-  "sideEffects": false,
-  "types": "lib/index.d.ts",
-  "version": "7.0.0-alpha.20"
+  "homepage": "https://github.com/vitawork/React-Data-Grid-version#readme"
 }
